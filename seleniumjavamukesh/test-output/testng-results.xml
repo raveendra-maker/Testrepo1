@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-14T13:40:53 IST" name="Default suite" finished-at="2026-05-14T13:41:05 IST" duration-ms="11769">
+    <groups>
+    </groups>
+    <test started-at="2026-05-14T13:40:53 IST" name="Default test" finished-at="2026-05-14T13:41:05 IST" duration-ms="11769">
+      <class name="excelreading.TestngParameter">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:excelreading.TestngParameter@6f03482]" started-at="2026-05-14T13:40:53 IST" name="test1" finished-at="2026-05-14T13:41:05 IST" duration-ms="11657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://freelance-learn-automation.vercel.app/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- excelreading.TestngParameter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

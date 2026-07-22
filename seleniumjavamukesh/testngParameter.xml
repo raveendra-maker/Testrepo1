@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="TestEdge">
+  <parameter name="browser" value="edge"></parameter>	
+  <parameter name="url" value="https://www.google.com/"></parameter>
+  <classes>
+      <class name="testngparameter.TestngParameter"/>
+   </classes>
+  </test> 
+  
+  <test name="TestChome">
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="url" value="https://www.google.com/"></parameter>	
+  <classes>
+      <class name="testngparameter.TestngParameter"/>
+   </classes>
+  </test> 
+  
+  <test name="TestFirefox">
+  <parameter name="browser" value="Firefox"></parameter>
+  <parameter name="url" value="https://www.google.com/"></parameter>	
+  <classes>
+     <class name="testngparameter.TestngParameter"/>
+   </classes>
+  </test> 
+  
+  
+</suite> 
